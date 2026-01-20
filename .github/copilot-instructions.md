@@ -14,7 +14,7 @@
 - Database with postgreSQL for production.
 - Configuration settings should be managed using `appsettings.json` and environment variables.
 - Use dependency injection to manage service lifetimes and dependencies.
-- Always include Test projects with xUnit for each layer.
+- Always include Test projects with xUnit for each layer and mocking with Moq.
 - Use `dotnet new webapi` as the base template for the API project.
 
 ## Coding Standards
