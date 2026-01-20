@@ -24,6 +24,8 @@ Run prompt in chat
 
 Chat in Agent mode
 ```
+/clear
+
 create order project in folder demo01
 ```
 
@@ -34,3 +36,8 @@ generate code of create order api
 
 ### 3.2 Specific instruction
 * File in `.github/instructions/NAME.instructions.md`
+
+
+### Tips
+* Debug chat history
+  * Developer: Show Chat Debug View
