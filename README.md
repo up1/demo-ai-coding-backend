@@ -24,7 +24,7 @@ Run prompt in chat
 
 Chat
 ```
-create hello project in folder demo01
+create order project in folder demo01
 ```
 
 ### 3.2 Specific instruction

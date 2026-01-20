@@ -5,6 +5,15 @@
 - The solution must include separate projects for: `Api`, `Application`, `Domain`, and `Infrastructure`.
 - API controllers should be placed in the `Api/Controllers` directory.
 - Domain models should be in the `Domain/Entities` directory.
+- Application services should be in the `Application/Services` directory.
+- Infrastructure implementations (e.g., data access) should be in the `Infrastructure/Data` directory
+- Data transfer objects (DTOs) should be in the `Application/DTOs` directory.
+- Database context and migrations should be in the `Infrastructure/Database` directory.
+- Use `Entity Framework Core` for data access.
+- Use `AutoMapper` for mapping between domain models and DTOs.
+- Database with postgreSQL for development and production.
+- Configuration settings should be managed using `appsettings.json` and environment variables.
+- Use dependency injection to manage service lifetimes and dependencies.
 - Test projects with xUnit should be included for each layer.
 - Use `dotnet new webapi` as the base template for the API project.
 
