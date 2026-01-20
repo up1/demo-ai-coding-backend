@@ -22,7 +22,7 @@ Run prompt in chat
 ### 3.1 Global instruction
 * File in `.github/copilot-instructions.md`
 
-Chat
+Chat in Agent mode
 ```
 create order project in folder demo01
 ```
