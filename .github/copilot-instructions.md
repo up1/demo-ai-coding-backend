@@ -5,6 +5,7 @@
 - The solution must include separate projects for: `Api`, `Application`, `Domain`, and `Infrastructure`.
 - API controllers should be placed in the `Api/Controllers` directory.
 - Domain models should be in the `Domain/Entities` directory.
+- Test projects with xUnit should be included for each layer.
 - Use `dotnet new webapi` as the base template for the API project.
 
 ## Coding Standards
@@ -18,5 +19,3 @@
 - Class names should be in `PascalCase`.
 - Interface names should start with `I`, e.g., `IRepository`.
 
-## Documentation
-- Generate Swagger/OpenAPI documentation for all endpoints.

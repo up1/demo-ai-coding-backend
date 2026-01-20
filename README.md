@@ -22,5 +22,10 @@ Run prompt in chat
 ### 3.1 Global instruction
 * File in `.github/copilot-instructions.md`
 
+Chat
+```
+create hello project in folder demo01
+```
+
 ### 3.2 Specific instruction
 * File in `.github/instructions/NAME.instructions.md`
