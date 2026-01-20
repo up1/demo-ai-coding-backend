@@ -16,6 +16,7 @@
 - Use dependency injection to manage service lifetimes and dependencies.
 - Always include Test projects with xUnit for each layer and mocking with Moq.
 - Use `dotnet new webapi` as the base template for the API project.
+- Finally, include a `README.md` file with clear instructions on how to set up, run, and test the application.
 
 ## Coding Standards
 - **Target Framework:** All projects target .NET 9.0.
