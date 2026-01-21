@@ -24,4 +24,24 @@ git commit -m "feat: add user authentication module"```
 
 Make sure to replace the example commit message with one that accurately reflects the changes made in the codebase.
 
+6. Create PR(Pull Request) description based on the commit messages if multiple commits are made.
+
+Example PR description:
+```### Summary
+This PR introduces the following changes:
+- feat: add user authentication module
+- fix: resolve issue with data validation in user registration
+- docs: update API documentation for new endpoints
+### Related Issues
+- Closes #123
+- Closes #124
+### Checklist
+- [x] My code follows the style guidelines of this project
+- [x] I have performed a self-review of my code
+- [x] I have commented my code, particularly in hard-to-understand areas
+- [x] I have made corresponding changes to the documentation
+- [x] My changes generate no new warnings
+- [x] I have added tests that prove my fix is effective or that my feature works
+- [x] New and existing unit tests pass locally with my changes``` 
+
 Remember to follow best practices for commit messages, keeping them clear and informative.
